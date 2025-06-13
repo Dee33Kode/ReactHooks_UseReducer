@@ -9,7 +9,7 @@ const ACTIONS = {
 const reducer = (state, action) => {
     switch (action.type) {
         case ACTIONS.INCREMENT:
-            return {count: state.count + 1};
+            return {count: state.count + 4};
             case ACTIONS.DECREMENT:
                 return {count: Math.max(0, state.count - 1)};
                 case ACTIONS.RESET:
